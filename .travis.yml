@@ -3,6 +3,6 @@ rvm:
  - 2.4.1
 env:
  - DB=sqlite
- script:
-   - RAILS_ENV=test bundle exec rake db:migrate --trace
-   - bundle exec rake db:test:prepare
+script:
+ - RAILS_ENV=test bundle exec rake db:migrate --trace
+ - bundle exec rake db:test:prepare
